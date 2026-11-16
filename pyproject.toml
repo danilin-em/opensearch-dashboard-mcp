@@ -1,6 +1,6 @@
 [project]
 name = "opensearch-dashboard-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server for OpenSearch Dashboards"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -8,7 +8,7 @@ license = { text = "MIT" }
 authors = [{ name = "Evgenii Danilin", email = "evgenii.danilin.m@gmail.com" }]
 keywords = ["mcp", "opensearch", "opensearch-dashboards", "llm"]
 dependencies = [
-    "mcp[cli]>=1.2.0",
+    "mcp[cli]>=1.2.0,<2",
     "httpx>=0.27",
     "socksio>=1.0.0",
 ]
